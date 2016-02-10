@@ -1,0 +1,26 @@
+body{
+  background-color: #ccccff;
+}
+.container{
+  margin: auto;
+  width: 50%;
+  text-align:center;
+}
+h1{
+  animation: pat-animation 5s steps(20, start) infinite;
+  font-size: 16em;
+}
+@keyframes pat-animation {
+  0%   { color: #ffff00;  } 
+  20%  { color: #ffcd00;  }
+  40%  { color: #c3d74b;  }
+  60%  { color: #c3d7d7;  }
+  80%  { color: #ffc39b;  }
+  100% { color: #ffff00;  }
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
