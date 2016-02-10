@@ -1,5 +1,5 @@
 body{
-  background-color: #ccccff;
+  background-color: rgb(0,0,0);
 }
 .container{
   margin: auto;
@@ -7,11 +7,12 @@ body{
   text-align:center;
 }
 h1{
-  animation: pat-animation 5s steps(20, start) infinite;
+  /*animation: pat-animation 5s steps(20, start) infinite;*/
   font-size: 10em;
 }
+/*
 @keyframes pat-animation {
-  0%   { color: #ffff00;  } 
+  0%   { color: #ffff00;  }
   20%  { color: #ffcd00;  }
   40%  { color: #c3d74b;  }
   60%  { color: #c3d7d7;  }
@@ -24,10 +25,31 @@ h1{
     transform:rotate(360deg);
   }
 }
-
+*/
 .umm-bootstrap{
   font-size: 4em;
   padding: 2em;
   border: 8px dashed pink;
   height: 100%;
+}
+
+.header {
+  background-color: rgb(255,0,0);
+}
+
+.section-intro {
+  background-color: rgb(0,255,255);
+}
+
+.section-text {
+  color: rgb(255,255,255);
+  background-color: rgb(30,30,30);
+}
+
+.section-video {
+  background-color: rgb(255,255,0);
+}
+
+.footer {
+  background-color: rgb(255,0,0);
 }
