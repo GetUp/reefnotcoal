@@ -38,16 +38,33 @@ h1{
 }
 
 .section-intro {
-  background-color: rgb(0,255,255);
+  background: rgb(110,204,224); /* Old browsers */
+  background-image: url(../images/diggers_and_reef.png), linear-gradient(to bottom,  rgba(110,204,224,1) 0%,rgba(54,44,41,1) 100%);
 }
 
 .section-text {
   color: rgb(255,255,255);
-  background-color: rgb(30,30,30);
+  background-color: rgb(34, 19, 13);
+  
+}
+.section-text-above-video{
+  padding: 80px 0 130px 0;
+
+}
+.section-text-under-video{
+  padding: 130px 0 80px 0;
+
 }
 
 .section-video {
-  background-color: rgb(255,255,0);
+  background-color: rgb(109,204,224);
+  padding:  0 20px;
+}
+.video-breaks-out-of-container {
+margin-top: -50px;
+margin-bottom: -50px;
+
+
 }
 
 .footer {
