@@ -1,0 +1,9 @@
+@media(max-width:600px){
+
+  /* Hi george - delete this */
+  h1, h2, p, a, button, div {
+    transform:rotateY(180deg);
+    unicode-bidi:bidi-override;
+    direction:rtl;
+  }
+}
