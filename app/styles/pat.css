@@ -37,7 +37,7 @@ h1{
 }
 
 .header {
-  background-color: #22130d;
+  background-color: #22130D;
   display: block;
  
 
@@ -66,7 +66,7 @@ h1{
 .wave-text{
 max-width: 60%;
 margin: auto;
-padding-top: 20px;
+padding-top: 54px;
 }
 
 .wave-divider{
@@ -84,7 +84,7 @@ padding-top: 20px;
 .section-intro h2{
   text-transform: lowercase;
   color: #3C2415;
-  margin-top:276px;
+  margin-top:300px;
   font-size: 30px;
   font-weight: bold;
 
@@ -126,7 +126,7 @@ margin: auto;
 }
 .tagline h2{
   color: #8b5e3c;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 
@@ -169,7 +169,7 @@ h3{
 
 
 .btn-primary {
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 100px;
   width: 100%;
   height: 60px;
@@ -190,7 +190,10 @@ h3{
   padding-top: 100px;
 }
 
-
+.hidden-sm-up{
+  background-color: #6dcce0;
+  display: block;
+}
 .section-video {
   background-color: rgb(109,204,224);
   padding:  0 20px;
@@ -199,11 +202,15 @@ h3{
   margin-top: -50px;
   margin-bottom: -50px;
 }
-
+.logos{
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
 
 .take-action{
-  background-color: #22130d;
+  background-color: #22130D;
 }
 
 .footer {
@@ -211,4 +218,5 @@ h3{
 }
 .footer2{
   background-color: #6DCCE0;
+  margin: auto;
 }
