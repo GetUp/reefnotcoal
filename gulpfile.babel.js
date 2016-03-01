@@ -256,6 +256,26 @@ gulp.task('generate-service-worker', ['copy-sw-scripts'], () => {
   });
 });
 
+gulp.task('deploy', () => {
+  // create a new publisher
+  const publisher = $.awspublish.create({
+    params: {Bucket: 'reefnotcoal.org'},
+    "accessKeyId": 'AKIAIY2G4BGETMHM5I5Q',
+    "secretAccessKey": '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',
+  });
+
+  // define custom headers
+  const headers = {
+    'Cache-Control': 'max-age=315360000, no-transform, public'
+  };
+
+  return gulp.src('dist/**/*.*')
+    .pipe(publisher.publish(headers))
+    .pipe(publisher.sync())
+    .pipe(publisher.cache())
+    .pipe($.awspublish.reporter());
+});
+
 // Load custom tasks from the `tasks` directory
 // Run: `npm install --save-dev require-dir` from the command-line
 // try { require('require-dir')('tasks'); } catch (err) { console.error(err); }

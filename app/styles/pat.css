@@ -29,12 +29,7 @@ h1{
   }
 }
 */
-.umm-bootstrap{
-  font-size: 4em;
-  padding: 2em;
-  border: 8px dashed pink;
-  height: 100%;
-}
+
 
 .header {
   background-color: #22130D;
@@ -75,15 +70,24 @@ padding-top: 54px;
 }
 .wave-divider2{
   margin-top: 50px;
-  margin-bottom: 219px;
+  margin-bottom: 138px;
 
 }
 
 .section-intro-wrapper{
   position:relative;
   height:0;
-  padding-bottom: 114.65%;
+  padding-bottom:106.65%;
+}
 
+.wave-divider-coal {
+   background-image: url(../images/wave2.png);
+   background-repeat: no-repeat, no-repeat, no-repeat;
+   background-size: cover;
+   background-position:top center;
+   width: 100%;
+   height: 400px;
+   background-color: #22130D;
 }
 
 
@@ -114,10 +118,6 @@ padding-top: 54px;
 
 }
 
-.crumbles{
-max-width: 40%;
-margin: auto;
-}
 .section-text-under-video{
   padding: 80px 0 80px 0;
   font-size: 20px;
