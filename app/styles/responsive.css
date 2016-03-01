@@ -85,7 +85,7 @@ margin-top: -4px;
 
 @media (max-width: 480px) {
 .section-intro{
-background-image: url(../images/mobile-section-intro.png),  linear-gradient(to bottom,  rgba(110,204,224,1) 0%,rgba(54,44,41,1) 100%);
+background-image: url(../images/trial.png),  linear-gradient(to bottom,  rgba(110,204,224,1) 0%,rgba(54,44,41,1) 100%);
    background-repeat: no-repeat, no-repeat, no-repeat;
    background-size: cover;
    background-position:top center;
@@ -94,12 +94,12 @@ background-image: url(../images/mobile-section-intro.png),  linear-gradient(to b
 
 	.section-intro h2{
 		font-size: 18px;
-		margin-top: 418px;
+		margin-top: 364px;
 
 	}
 
 	.section-intro-wrapper{
-	padding-bottom: 299.65%;
+	padding-bottom: 237.65%;
 
 
 	}
@@ -157,9 +157,10 @@ background-image: url(../images/mobile-section-intro.png),  linear-gradient(to b
 
 
 
-@media (max-width: 320px) {
+
+@media (max-width: 375px) {
 	.section-intro h2 {
-	margin-top: 143px;
+	margin-top: 305px;
 	font-size: 17px;
 }
 .btn-primary{
