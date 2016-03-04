@@ -1,6 +1,8 @@
 body{
   background-color: #22130D;
   font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  max-width: 1500px;
 }
 .container{
   margin: auto;
@@ -107,10 +109,10 @@ background-color: #22130D;
 .section-intro h2{
   text-transform: lowercase;
   color: #3C2415;
-  margin-top: 658px;
+  margin-top: 501px;
   font-size: 40px;
   font-weight: bold;
-  
+
 
 }
 

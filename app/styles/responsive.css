@@ -27,6 +27,9 @@ background-image: url(../images/desktop-section-intro.png),  linear-gradient(to 
 	  .wave-text{
 	  	max-width: 70%;
 	  }
+.wave-divider1{
+	   height: 231px;
+}
 
 }
 
@@ -83,11 +86,20 @@ margin-top: -4px;
 	width:300px;
 }
 
+
+.wave-divider1{
+	   height: 169px;
+}
+
 }
 
 @media(max-width: 650px){
 .section-intro h2{
-	margin-top: 458px;
+	margin-top: 355px;
+}
+
+.wave-divider1{
+	   height: 137px;
 }
 
 }
